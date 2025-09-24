@@ -1,0 +1,69 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procesador de XML - Catálogo de Libros</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Procesador XML - Catálogo de Libros</h1>
+            <p>Sistema de análisis y visualización de catálogos bibliográficos</p>
+        </div>
+
+        <div class="main-content">
+            
+            <div class="controls">
+                <button class="btn" onclick="analyzeByGenre()">Análisis por Género</button>
+                <button class="btn" onclick="analyzePrices()">Análisis de Precios</button>
+                <button class="btn" onclick="publicationTimeline()">Timeline de Publicaciones</button>
+                <button class="btn" onclick="clearResults()">Limpiar Resultados</button>
+            </div>
+
+            
+            <div class="upload-section">
+                <div class="file-input">
+                    <label for="xmlFile" class="file-label">Seleccionar archivo XML</label>
+                    <input type="file" id="xmlFile" accept=".xml" onchange="loadXMLFile(event)">
+                </div>
+                <textarea id="xmlContent" class="xml-textarea" placeholder="Pegue aquí el contenido XML o cargue un archivo..."></textarea>
+                <br><br>
+                <button class="btn success" onclick="processXML()">Procesar XML</button>
+            </div>
+
+            
+            <div id="loading" class="loading">
+                <p>Procesando...</p>
+            </div>
+
+            
+            <div class="results">
+                <div id="consoleOutput" class="console-output"></div>
+                
+                
+                <div id="genreChart" class="chart-container" style="display: none;">
+                    <h3 class="chart-title">Distribución por Género</h3>
+                    <canvas id="genreCanvas"></canvas>
+                </div>
+
+                <div id="priceChart" class="chart-container" style="display: none;">
+                    <h3 class="chart-title">Análisis de Precios</h3>
+                    <canvas id="priceCanvas"></canvas>
+                </div>
+
+                <div id="timelineChart" class="chart-container" style="display: none;">
+                    <h3 class="chart-title">Timeline de Publicaciones</h3>
+                    <canvas id="timelineCanvas"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'libro_app/index.js' %}"></script>
+</body>
+</html>

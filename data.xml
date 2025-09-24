@@ -1,0 +1,249 @@
+<?xml version="1.0"?>
+<catalog>
+	<book id="bk101">
+		<author>Gambardella, Matthew</author>
+		<title>XML Developer's Guide</title>
+		<genre>Computer</genre>
+		<price>44.95</price>
+		<publish_date>2000-10-01</publish_date>
+		<description>An in-depth look at creating applications 
+      with XML.</description>
+	</book>
+	<book id="bk102">
+		<author>Ralls, Kim</author>
+		<title>Midnight Rain</title>
+		<genre>Fantasy</genre>
+		<price>5.95</price>
+		<publish_date>2000-12-16</publish_date>
+		<description>A former architect battles corporate zombies, 
+      an evil sorceress, and her own childhood to become queen 
+      of the world.</description>
+	</book>
+	<book id="bk103">
+		<author>Corets, Eva</author>
+		<title>Maeve Ascendant</title>
+		<genre>Fantasy</genre>
+		<price>5.95</price>
+		<publish_date>2000-11-17</publish_date>
+		<description>After the collapse of a nanotechnology 
+      society in England, the young survivors lay the 
+      foundation for a new society.</description>
+	</book>
+	<book id="bk104">
+		<author>Corets, Eva</author>
+		<title>Oberon's Legacy</title>
+		<genre>Fantasy</genre>
+		<price>5.95</price>
+		<publish_date>2001-03-10</publish_date>
+		<description>In post-apocalypse England, the mysterious 
+      agent known only as Oberon helps to create a new life 
+      for the inhabitants of London. Sequel to Maeve 
+      Ascendant.</description>
+	</book>
+	<book id="bk105">
+		<author>Corets, Eva</author>
+		<title>The Sundered Grail</title>
+		<genre>Fantasy</genre>
+		<price>5.95</price>
+		<publish_date>2001-09-10</publish_date>
+		<description>The two daughters of Maeve, half-sisters, 
+      battle one another for control of England. Sequel to 
+      Oberon's Legacy.</description>
+	</book>
+	<book id="bk106">
+		<author>Randall, Cynthia</author>
+		<title>Lover Birds</title>
+		<genre>Romance</genre>
+		<price>4.95</price>
+		<publish_date>2000-09-02</publish_date>
+		<description>When Carla meets Paul at an ornithology 
+      conference, tempers fly as feathers get ruffled.</description>
+	</book>
+	<book id="bk107">
+		<author>Thurman, Paula</author>
+		<title>Splish Splash</title>
+		<genre>Romance</genre>
+		<price>4.95</price>
+		<publish_date>2000-11-02</publish_date>
+		<description>A deep sea diver finds true love twenty 
+      thousand leagues beneath the sea.</description>
+	</book>
+	<book id="bk108">
+		<author>Knorr, Stefan</author>
+		<title>Creepy Crawlies</title>
+		<genre>Horror</genre>
+		<price>4.95</price>
+		<publish_date>2000-12-06</publish_date>
+		<description>An anthology of horror stories about roaches,
+      centipedes, scorpions  and other insects.</description>
+	</book>
+	<book id="bk109">
+		<author>Kress, Peter</author>
+		<title>Paradox Lost</title>
+		<genre>Science Fiction</genre>
+		<price>6.95</price>
+		<publish_date>2000-11-02</publish_date>
+		<description>After an inadvertant trip through a Heisenberg
+      Uncertainty Device, James Salway discovers the problems 
+      of being quantum.</description>
+	</book>
+	<book id="bk110">
+		<author>O'Brien, Tim</author>
+		<title>Microsoft .NET: The Programming Bible</title>
+		<genre>Computer</genre>
+		<price>36.95</price>
+		<publish_date>2000-12-09</publish_date>
+		<description>Microsoft's .NET initiative is explored in 
+      detail in this deep programmer's reference.</description>
+	</book>
+	<book id="bk111">
+		<author>O'Brien, Tim</author>
+		<title>MSXML3: A Comprehensive Guide</title>
+		<genre>Computer</genre>
+		<price>36.95</price>
+		<publish_date>2000-12-01</publish_date>
+		<description>The Microsoft MSXML3 parser is covered in 
+      detail, with attention to XML DOM interfaces, XSLT processing, 
+      SAX and more.</description>
+	</book>
+	<book id="bk112">
+		<author>Galos, Mike</author>
+		<title>Visual Studio 7: A Comprehensive Guide</title>
+		<genre>Computer</genre>
+		<price>49.95</price>
+		<publish_date>2001-04-16</publish_date>
+		<description>Microsoft Visual Studio 7 is explored in depth,
+      looking at how Visual Basic, Visual C++, C#, and ASP+ are 
+      integrated into a comprehensive development 
+      environment.</description>
+	</book>
+	<book id="bk113">
+		<author>García, María Elena</author>
+		<title>Cien Años de Soledad Digital</title>
+		<genre>Fiction</genre>
+		<price>12.99</price>
+		<publish_date>2023-05-15</publish_date>
+		<description>Una saga familiar en el mundo virtual donde 
+      la realidad y la tecnología se entrelazan en Macondo 2.0.</description>
+	</book>
+	<book id="bk114">
+		<author>Thompson, James</author>
+		<title>The AI Revolution</title>
+		<genre>Technology</genre>
+		<price>28.50</price>
+		<publish_date>2023-08-22</publish_date>
+		<description>An comprehensive exploration of artificial 
+      intelligence and its impact on society, business, and 
+      the future of humanity.</description>
+	</book>
+	<book id="bk115">
+		<author>Nakamura, Yuki</author>
+		<title>Shadows of Mount Fuji</title>
+		<genre>Mystery</genre>
+		<price>9.75</price>
+		<publish_date>2023-03-10</publish_date>
+		<description>A detective uncovers ancient secrets while 
+      investigating a series of mysterious disappearances 
+      near Japan's sacred mountain.</description>
+	</book>
+	<book id="bk116">
+		<author>Williams, Sarah</author>
+		<title>The Quantum Kitchen</title>
+		<genre>Science Fiction</genre>
+		<price>11.95</price>
+		<publish_date>2023-07-04</publish_date>
+		<description>A chef discovers that her recipes can 
+      alter reality at the quantum level, leading to 
+      hilarious and dangerous culinary adventures.</description>
+	</book>
+	<book id="bk117">
+		<author>Brown, Michael</author>
+		<title>Sustainable Web Development</title>
+		<genre>Computer</genre>
+		<price>42.00</price>
+		<publish_date>2023-09-18</publish_date>
+		<description>Learn how to build environmentally friendly 
+      websites and applications while maintaining performance 
+      and user experience.</description>
+	</book>
+	<book id="bk118">
+		<author>López, Carlos</author>
+		<title>El Último Tango en París Virtual</title>
+		<genre>Romance</genre>
+		<price>8.99</price>
+		<publish_date>2023-04-12</publish_date>
+		<description>Una historia de amor que transcurre entre 
+      la realidad y el metaverso, donde dos almas se 
+      encuentran más allá de las dimensiones físicas.</description>
+	</book>
+	<book id="bk119">
+		<author>Blackwood, Victoria</author>
+		<title>The Haunted Algorithm</title>
+		<genre>Horror</genre>
+		<price>7.50</price>
+		<publish_date>2023-10-31</publish_date>
+		<description>When a programmer discovers that her AI 
+      creation is haunted by the ghost of a deceased coder, 
+      reality becomes a nightmare of digital possession.</description>
+	</book>
+	<book id="bk120">
+		<author>Chen, Li Wei</author>
+		<title>Dragon Scales and Data Streams</title>
+		<genre>Fantasy</genre>
+		<price>13.25</price>
+		<publish_date>2023-06-28</publish_date>
+		<description>In a world where magic and technology coexist, 
+      a young dragon learns to code spells into digital reality, 
+      bridging ancient wisdom with modern innovation.</description>
+	</book>
+	<book id="bk121">
+		<author>Johnson, Patricia</author>
+		<title>The Psychology of Remote Work</title>
+		<genre>Business</genre>
+		<price>24.95</price>
+		<publish_date>2023-01-15</publish_date>
+		<description>A comprehensive study on the mental health 
+      impacts, productivity patterns, and social dynamics 
+      of distributed workforce management.</description>
+	</book>
+	<book id="bk122">
+		<author>Petrov, Vladimir</author>
+		<title>Red Square Blues</title>
+		<genre>Thriller</genre>
+		<price>10.50</price>
+		<publish_date>2023-11-07</publish_date>
+		<description>A former KGB agent turned jazz musician 
+      must use his old skills when a conspiracy threatens 
+      to destabilize modern Russia.</description>
+	</book>
+	<book id="bk123">
+		<author>Anderson, Emma</author>
+		<title>Blockchain for Beginners</title>
+		<genre>Technology</genre>
+		<price>19.99</price>
+		<publish_date>2023-02-28</publish_date>
+		<description>A clear and accessible introduction to 
+      blockchain technology, cryptocurrencies, and their 
+      potential applications across various industries.</description>
+	</book>
+	<book id="bk124">
+		<author>Reyes, Sofia</author>
+		<title>Mariposas de Acero</title>
+		<genre>Historical Fiction</genre>
+		<price>14.75</price>
+		<publish_date>2023-08-05</publish_date>
+		<description>La historia de tres mujeres luchadoras 
+      durante la revolución industrial en México, tejiendo 
+      sus destinos entre las fábricas y los ideales de libertad.</description>
+	</book>
+	<book id="bk125">
+		<author>O'Connor, Sean</author>
+		<title>The Green Algorithm</title>
+		<genre>Environmental</genre>
+		<price>16.99</price>
+		<publish_date>2023-04-22</publish_date>
+		<description>How artificial intelligence and machine 
+      learning can be leveraged to combat climate change 
+      and create sustainable solutions for the planet.</description>
+	</book>
+</catalog>
